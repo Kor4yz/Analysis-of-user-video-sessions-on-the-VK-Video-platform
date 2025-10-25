@@ -1,11 +1,12 @@
 # Анализ видеосессий VK Видео  |  EDA → инсайты → рекомендации
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZykbZZXAXpsL4L23zqEr1y9f_eD8gnN8?usp=sharing)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kor4yz/Analysis-of-user-video-sessions-on-the-VK-Video-platform/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://github.com/Kor4yz/Analysis-of-user-video-sessions-on-the-VK-Video-platform/blob/main/vk.py)
 ## Задача
 Однодневный срез пользовательских видеосессий: очистка, EDA, источники трафика, вовлечённость по платформам, рекомендации.
 
 ## Стек
-Python (pandas, numpy, plotly/matplotlib), Jupyter/Colab
+Python (pandas, numpy, matplotlib, seaborn), Jupyter/Colab, SQL
 
 ## Данные (словари полей)
 | Поле | Описание |
@@ -16,21 +17,15 @@ Python (pandas, numpy, plotly/matplotlib), Jupyter/Colab
 | video_owner_id | владелец контента |
 | src | источник перехода (video_for_you, video_search, …) |
 | total_view_time | время просмотра, сек |
-
-Результаты (основные графики)
-
-
-
-
-Рекомендации
-
-— Оптимизировать первые 30 секунд, усиливать video_playlist/video_my_history и т.д.
+Нули и сверхдлинные сессии отсекаются (99-й перцентиль).
 
 Материалы
 
-PDF-отчёт: VK.pdf
+Отчёт (PDF): reports/VK.pdf
 
-Ноутбук: Colab
+Ноутбук: notebooks/VK.ipynb (Colab badge сверху)
+
+Результаты (основные графики)
 
 ---
 
