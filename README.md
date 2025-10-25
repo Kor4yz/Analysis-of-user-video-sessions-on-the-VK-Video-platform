@@ -23,7 +23,7 @@ Python (pandas, numpy, matplotlib, seaborn), Jupyter/Colab, SQL
 
 Отчёт (PDF): reports/VK.pdf
 
-Ноутбук: notebooks/VK.ipynb (Colab badge сверху)
+Ноутбук: notebooks/VK.py
 
 Результаты (основные графики)
 
