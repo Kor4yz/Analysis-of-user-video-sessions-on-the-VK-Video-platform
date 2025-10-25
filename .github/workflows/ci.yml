@@ -1,0 +1,15 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.10' }
+      - run: pip install -r requirements.txt
+      - run: pip install black isort flake8 pytest
+      - run: black --check src app tests
+      - run: isort --check-only src app tests
+      - run: flake8 src app tests
+      - run: pytest -q
