@@ -26,6 +26,17 @@ Python (pandas, numpy, matplotlib, seaborn), Jupyter/Colab, SQL
 Ноутбук: notebooks/VK.py
 
 Результаты (основные графики)
+## Результаты (примеры графиков)
+
+<p align="center">
+  <img src="reports/img/Распределение_времени_просмотра.png" width="46%" />
+  <img src="reports/img/Распределение_уникальных_видео_на_пользователя.png" width="46%" />
+</p>
+<p align="center">
+  <img src="reports/img/Топ_10_видео_по_среднему_времени_просмотра.png" width="46%" />
+  <img src="reports/img/Топ_10_видео_по_суммарному_времени_просмотра.png" width="46%" />
+</p>
+
 
 ---
 
